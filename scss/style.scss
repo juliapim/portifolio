@@ -1,0 +1,109 @@
+body, html{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    
+}
+
+img{
+    width: 250px;
+    border-radius: 10%;
+    
+}
+
+.box1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#a8a8a8, #d5d5d5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-2, .box-3, .box-4 {
+    display: flex;
+    height: 70vh;
+    
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    
+}
+nav {
+    color: #262626; 
+    font-size: 24px; 
+    text-decoration: none; 
+    padding: 10px;
+    text-align: center;
+    background-color: #F2F2F2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-radius: 5%;
+}
+
+nav a{
+    
+    color: #262626; 
+    font-size: 24px; 
+    text-decoration: none; 
+    padding: 10px;
+    
+}
+
+.navbar a:hover, .current {text-decoration: underline;color: black;
+}
+
+#ab{
+    width: 70%;
+}
+.abooo{
+    display: flex;
+    
+    
+    
+}
+
+.aboutmef{
+    width: 200px;
+    align-self: flex-end;
+}
+
+
+
+ul li{
+    list-style: none;
+}
+
+
+.proj{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h2{
+    text-align: center;
+}
+.icon-list {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.icon{
+    padding-right: 40px;
+    font-size: 30px;
+
+}
+
+
+
+@media screen and (max-width: 600px){
+   .abooo, .proj{
+       display: flex;
+       flex-direction: column;
+   }
+}
